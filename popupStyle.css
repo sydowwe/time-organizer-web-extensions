@@ -1,0 +1,31 @@
+body {
+    background: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px !important;
+}
+
+.btn-custom {
+    background: #5428f6;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.btn-custom:hover {
+    background: #6749f8;
+    color: white;
+}
+
+.invalid-feedback {
+    margin-bottom: -5px !important;
+}
